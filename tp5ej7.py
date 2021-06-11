@@ -18,13 +18,13 @@ def ingreso_num(mensaje):
     """
     num_decimal = input(mensaje + " #")
     try:
-        num_decimal_3cifras = float("{0:.2f}".format(num_decimal))    # si es un numero con cifras decimales, lo acorta a dos cifras
+        num_decimal_2cifras = float("{0:.2f}".format(num_decimal))    # si es un numero con cifras decimales, lo acorta a dos cifras
     except Exception as ex:
 # Ha habido una excepción <class 'TypeError'>
         print("Ha habido una excepción", type(ex))
     else:  #Entra en else, no ha ocurrido ninguna excepción
         print("No ha ocurrido ninguna excepción")
-        return num_decimal_3cifras
+        return num_decimal_2cifras
     
 def Distancia(nro_1, nro_2):
   distancia = ((nro_1 - nro_2)**2)(1/2)
