@@ -18,7 +18,7 @@ def Par_o_Impar(_numero)
   
 def prueba():
   numero = ingreso_numero("Ingresar numero:")
-  if (Par_o_Impar(nnumero)): print(f'{numero} es Par')
+  if (Par_o_Impar(numero)): print(f'{numero} es Par')
   else: print(f'{numero} es Impar')
       
 if __name__ == "__main__":
