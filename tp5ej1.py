@@ -10,9 +10,16 @@
 
 from tp4ej1 import ingreso_numero  # uso la funcion ingreso_numero(mensaje) del ej. 1, tp4
 
+def Par_o_Impar(_numero)
+  cociente = int(_numero/2)
+  resto = _numero - cociente*2
+  if resto == 0 : return True
+  else: return False
+  
 def prueba():
-    """Toda la interacción con el usuario va acá"""
-    pass
-
+  numero = ingreso_numero("Ingresar numero:")
+  if (Par_o_Impar(nnumero)): print(f'{numero} es Par')
+  else: print(f'{numero} es Impar')
+      
 if __name__ == "__main__":
     prueba()
