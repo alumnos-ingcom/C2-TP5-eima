@@ -27,7 +27,7 @@ def ingreso_num(mensaje):
         return num_decimal_3cifras
     
 def Distancia(nro_1, nro_2):
-  distancia = ((nro_1 - nro_2)**2)**(1/2)
+  distancia = ((nro_1)**2)**(1/2) + ((nro_2)**2)**(1/2)
   return distancia
   
 def prueba():
