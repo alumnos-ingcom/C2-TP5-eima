@@ -1,4 +1,9 @@
-Hola 
- esta o no esta
-es 
-esta
+Cada punto debe ser entregado en un archivo independiente
+
+El nombre de cada archivo debe ser ser tp5ej seguido del numero de ejercicio mas .py (el primer ejercicio sera entonces tp5ej1.py
+
+Cada punto esta dividido en dos partes; la función a implementar y el programa que hace uso de la misma.
+
+Toda la parte interactiva con el usuario (input/print) debe estar implementadada en la función prueba().
+
+Cada archivo debe seguir la estructura indicada dentro del archivo plantilla.py, reemplacen con su nombre y nombre de usuario de GitHub.

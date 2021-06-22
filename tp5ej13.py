@@ -13,22 +13,21 @@ Considerar solo la primera vez que aparezca la palabra a buscar.'''
 
 
 def busqueda_de_palabra(palabra):
-    with open("datos.txt") as fname:
+    with open("datos.txt") as archivo:
         l_datos = []
         busqueda = []
-        aux = False
         cant_lineas = 1
-        for lineas in fname:     
+        for lineas in archivo:     
            l_datos = lineas.split()       
            for i in range(len(l_datos)):
                if l_datos[i] == palabra:
                    busqueda.append([True,f'linea:{cant_lineas}'])
-                   aux = True
-           cant_lineas = cant_lineas + 1              
+           cant_lineas = cant_lineas + 1
+    archivo.close()       
     return busqueda  
 
 def prueba():
-    palabra = input("ingresar palabra a buscar: ")   
+    palabra = input("ingresar palabra a buscar: ")
     try:
           si_esta, nro_de_linea = busqueda_de_palabra(palabra)[0]
         # Ha habido una excepción <class 'TypeError'>
@@ -38,7 +37,7 @@ def prueba():
         print("Excepcion: Palabra no encontrada")
         # sale del programa
         exit()
-    else:        
+    else:
         return busqueda_de_palabra(palabra)
 
  ############ FUNCION PRINCIPAL ####################################
