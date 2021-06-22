@@ -1,11 +1,11 @@
 ########################################################
 # Matías G. Quevedo - @Gerchu-arqv
 # Eimi Saiz - @EimiSaiz
-# TP 5|Eje 8. El Cifrado del César
+# TP 5 - Eje. 8: El Cifrado del César
 # UNRN Andina - Introducción a Ingeniería en Computación
 ########################################################
 
-# Funcion codificadora:
+# Función codificadora:
 def cipher_encrypt(plain_text, key):
     
     encrypted = ""
