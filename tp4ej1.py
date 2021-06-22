@@ -4,6 +4,7 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ############################################################
 
+# codigo base para usar funcion ingreso_numero()
 
 def ingreso_numero(mensaje):
     """

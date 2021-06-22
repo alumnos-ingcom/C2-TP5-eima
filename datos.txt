@@ -1,3 +1,5 @@
+
+
 Cada punto debe ser entregado en un archivo independiente
 
 El nombre de cada archivo debe ser ser tp5ej seguido del numero de ejercicio mas .py (el primer ejercicio sera entonces tp5ej1.py
