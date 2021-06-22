@@ -11,6 +11,9 @@ Escribir una función que dado un texto y una palabra, retorne la
 ubicación de la palabra en el texto o una excepción si la palabra no forma parte del texto.
 Considerar solo la primera vez que aparezca la palabra a buscar.'''
 
+# Puede escribir otro texto del que esta en el archivo datos.txt
+# Se podria mejorar este codigo abriendo desde aqui el archivo.txt y que el usuario
+# lo escriba tambien...
 
 def busqueda_de_palabra(palabra):
     with open("datos.txt") as archivo:
@@ -21,7 +24,9 @@ def busqueda_de_palabra(palabra):
            l_datos = lineas.split()       
            for i in range(len(l_datos)):
                if l_datos[i] == palabra:
-                   busqueda.append([True,f'linea:{cant_lineas}'])
+                   # la posicion sera dando la ubicacion la/s lineas donde este
+                   # la palabra a buscar
+                   busqueda.append([True,f'linea:{cant_lineas}']) 
            cant_lineas = cant_lineas + 1
     archivo.close()       
     return busqueda  
