@@ -1,6 +1,6 @@
 ############################################################
 # Matias G. Quevedo - @Gerchu-arq
-# Eimi Saiz - @EimiSaiz
+
 # 1. Pares e Impares, TP5, Unidad 3.
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ############################################################

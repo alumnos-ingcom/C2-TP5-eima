@@ -1,6 +1,6 @@
 ############################################################
 # Matias G. Quevedo - @Gerchu-arq
-# Eimi Saiz - @EimiSaiz
+
 # 13.  Búsqueda de palabras, TP5, Unidad 3.
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ############################################################
